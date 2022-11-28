@@ -1,0 +1,67 @@
+@import '../../../../theme/variables.scss';
+.container {
+  width: 100%;
+  height: 20.12rem;
+  background-color: $backgroundBlue;
+  box-shadow: inset 2px 4px 22px 4px $boxShadowColor;
+}
+
+.finderTitleBox {
+  padding-left: 162px;
+  padding-top: 56px;
+  color: white;
+}
+
+.finderTitle {
+  color: white;
+  width: 477px;
+  height: 51px;
+  border-bottom: 4px solid;
+  border-image: $titleGradient;
+  font-weight: 700;
+}
+
+.search {
+  color: white;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.findPacientText {
+  width: 40%;
+  text-align: center;
+  margin-top: 0.025rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  border: 1px solid #2388ec;
+  width: 351px;
+  height: 32px;
+  border-radius: 4px;
+  padding-right: 0.25rem;
+  box-shadow: 2px 4px 22px 4px $boxShadowColor;
+}
+
+.searchButton {
+  color: white;
+
+  background-color: $buttonBlue;
+  width: 86px;
+  height: 32px;
+  border-radius: 4px;
+  border-style: none;
+  margin-left: 0.43rem;
+}
+
+.searchIcon {
+  font-size: 1.4rem;
+}

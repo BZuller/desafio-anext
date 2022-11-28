@@ -1,0 +1,41 @@
+@import '../../../../theme/variables.scss';
+
+a {
+  color: $textBlue;
+}
+
+li {
+  list-style: none;
+}
+
+.headerContainer {
+  height: 5.75rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 4px 22px 4px black;
+}
+
+.headerList {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listElement {
+  display: flex;
+  align-items: center;
+  border-top: 0.5rem white solid;
+  height: 100%;
+}
+
+.listElement:hover {
+  border-color: $buttonBlue;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,92 @@
+@import '../../../../theme/variables.scss';
+
+.modalContainer {
+  padding: 32px 64px;
+  width: 31.37rem;
+  height: 24.75rem;
+  box-shadow: 2px 4px 22px 4px $boxShadowColor;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalText {
+  margin-top: 1rem;
+  color: $modalTextColor;
+  text-align: center;
+}
+
+h3 {
+  color: $textBlue;
+}
+
+.formBox {
+  margin-top: 1rem;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInput {
+  border: 1px solid #2388ec;
+  color: black;
+  width: 23.37rem;
+  height: 2rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px $boxShadowColor;
+}
+
+.selectBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formInputSelect {
+  border: 1px solid #2388ec;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px $boxShadowColor;
+  height: 2rem;
+  width: 10rem;
+}
+
+.submitButton {
+  color: white;
+  border-style: none;
+  background-color: $textBlue;
+  box-shadow: 2px 2px 6px $boxShadowColor;
+  border-radius: 4px;
+  width: 174px;
+  height: 2rem;
+}
+
+.formInput::placeholder {
+  padding-left: 2rem;
+  font-family: Roboto;
+}
+
+.modalInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalName {
+  font-size: 2rem;
+  color: $modalTextBlue;
+}
+
+.modalContact {
+  font-size: 1rem;
+  color: $modalTextBlue;
+}
+
+input:focus {
+  border: none;
+  border-color: transparent;
+}

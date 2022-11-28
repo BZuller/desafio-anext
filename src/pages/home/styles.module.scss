@@ -1,0 +1,18 @@
+@import '../../theme/variables.scss';
+
+.modalContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4.37rem;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #ffaa00;
+  margin-bottom: 2rem;
+}
